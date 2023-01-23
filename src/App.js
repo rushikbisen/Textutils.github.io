@@ -51,7 +51,7 @@ function App() {
     <Alert alert={alert}/>
     <div className="container my-3"> */}
 
-    <BrowserRouter>
+   
     <Navbar title="textutils" mode={mode}  toggleMode={toggleMode}/>
     <Alert alert={alert}/>
     <div className="container my-3">
@@ -61,7 +61,7 @@ function App() {
       <Route path="/*" element={<Navigate to="/text"/>}/>
     </Routes>
     </div>
-    </BrowserRouter>
+   
 
 
   {/* <Textform showAlert={showAlert}heading="Enter the text" mode={mode}/> */}
